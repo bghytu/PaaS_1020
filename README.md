@@ -1,6 +1,6 @@
 在PaaS上部署Xray,带伪装页面
 
-[镜像](https://hub.docker.com/r/wgp1020/paas)：`wgp1020/paas:x`
+[镜像](https://hub.docker.com/r/wgp233/paas)：`wgp233/paas:x`
 
 # 配置
 
