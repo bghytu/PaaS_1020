@@ -1,6 +1,6 @@
 在PaaS上部署Xray,带伪装页面
 
-[镜像](https://hub.docker.com/r/wgp233/paas)：`wgp233/paas:x`
+[镜像](https://hub.docker.com/r/wgp1020/paas)：`wgp1020/paas:x`
 
 # 配置
 
@@ -14,9 +14,9 @@ vless + vmess + trojan + shadowsocks2022
 - 加密
   - shadowsocks：**2022-blake3-aes-128-gcm**
 - 路径（默认）
-  - vless：**/vless/1eb6e917774b4a84aff6b058577c60a5**
-  - vmess：**/vmess/1eb6e917774b4a84aff6b058577c60a5**
-  - trojan：**/trojan/1eb6e917774b4a84aff6b058577c60a5**
+  - vless：**/vless/a6e568d2-8d3a-4199-913b-995cc428e926**
+  - vmess：**/vmess/a6e568d2-8d3a-4199-913b-995cc428e926**
+  - trojan：**/trojan/a6e568d2-8d3a-4199-913b-995cc428e926**
   - shadowsocks：**/shadowsocks/1eb6e917774b4a84aff6b058577c60a5**
 
 > 其他参数默认
@@ -30,7 +30,7 @@ vless + vmess + trojan + shadowsocks2022
 | 变量名           | 默认值                           | 描述            |
 | ---------------- | -------------------------------- | --------------- |
 | PORT             | 8080                             | 端口            |
-| UUID             | 1eb6e917774b4a84aff6b058577c60a5 | 用户ID/密码     |
+| UUID             | a6e568d2-8d3a-4199-913b-995cc428e926 | 用户ID/密码     |
 | PATH_vless       | /vless/$UUID                     | vless路径       |
 | PATH_vmess       | /vmess/$UUID                     | vmess路径       |
 | PATH_trojan      | /trojan/$UUID                    | trojan路径      |
